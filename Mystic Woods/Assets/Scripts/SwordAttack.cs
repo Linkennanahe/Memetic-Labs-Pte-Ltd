@@ -9,7 +9,7 @@ public class SwordAttack : MonoBehaviour
     void Start()
     {
         swordCollider = GetComponent<Collider2D>();
-        rightAttackOffset = transform.position;
+        rightAttackOffset = transform.localPosition;
 
     }
     public void AttackLeft()
